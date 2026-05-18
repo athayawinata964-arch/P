@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Sejarah Singkat Persib Bandung</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Poppins', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(145deg, #0a0f1a 0%, #0b1120 100%);
+            color: #eef2ff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Header dengan warna khas Persib */
+        .hero {
+            background: linear-gradient(135deg, #091b3a, #0a2f5a);
+            border-radius: 40px;
+            padding: 40px 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 5px solid #e5b13b;
+            box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            background: linear-gradient(135deg, #ffffff, #e5b13b);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 12px;
+        }
+
+        .hero .tagline {
+            font-size: 1.1rem;
+            color: #ffde9c;
+            letter-spacing: 1px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #e5b13b;
+            color: #0a2f5a;
+            font-weight: bold;
+            padding: 4px 16px;
+            border-radius: 40px;
+            margin-top: 15px;
+            font-size: 0.8rem;
+        }
+
+        /* Kartu konten */
+        .card {
+            background: rgba(20, 30, 55, 0.7);
+            backdrop-filter: blur(8px);
+            border-radius: 32px;
+            padding: 28px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(229, 177, 59, 0.3);
+            transition: 0.2s;
+        }
+
+        .card h2 {
+            color: #e5b13b;
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+            border-left: 5px solid #e5b13b;
+            padding-left: 20px;
+        }
+
+        .card p {
+            line-height: 1.7;
+            margin-bottom: 16px;
+            color: #e0e7ff;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .timeline-item {
+            background: #0f172f;
+            border-radius: 24px;
+            padding: 18px;
+            border-left: 6px solid #e5b13b;
+        }
+
+        .timeline-item h3 {
+            color: #e5b13b;
+            margin-bottom: 8px;
+        }
+
+        .prestasi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .prestasi-card {
+            background: #0f172f;
+            border-radius: 20px;
+            padding: 18px;
+            text-align: center;
+        }
+
+        .prestasi-card h4 {
+            color: #e5b13b;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #8a99c4;
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 1.8rem; }
+            .card h2 { font-size: 1.4rem; }
+            .container { padding: 0 8px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="hero">
+        <h1>⚽ PERSIB BANDUNG</h1>
+        <div class="tagline">Maung Bandung • Pangeran Biru • Kebanggaan Jawa Barat</div>
+        <div class="badge">Berdiri 14 Maret 1933</div>
+    </div>
+
+    <div class="card">
+        <h2>📜 Awal Mula Persib</h2>
+        <p><strong>Persib (Persatuan Sepakbola Indonesia Bandung)</strong> didirikan pada <strong>14 Maret 1933</strong> di Bandung, Jawa Barat. Klub ini lahir dari semangat persatuan para pemain sepak bola pribumi yang ingin melawan dominasi klub-klub Belanda pada masa penjajahan. Nama awal yang terkenal adalah <strong>BIV (Bandoeng Inlandsche Voetbalbond)</strong> sebelum akhirnya berganti menjadi Persib.</p>
+        <p>Sejak awal, Persib menjadi simbol perlawanan dan kebanggaan rakyat Bandung. Warna biru dipilih sebagai identitas, melambangkan ketenangan dan kedalaman jiwa, sementara julukan <strong>"Maung Bandung"</strong> (Macan Bandung) mencerminkan kegarangan dan semangat pantang menyerah.</p>
+    </div>
+
+    <div class="card">
+        <h2>🏆 Perjalanan & Era Keemasan</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>📅 1933 – 1940an</h3>
+                <p>Persib menjadi salah satu klub terkuat di Hindia Belanda, mengikuti kompetisi internal dan kerap mencetak pemain-pemain hebat pribumi.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>🏅 1990 – 1995: Era Kebangkitan</h3>
+                <p>Persib meraih gelar <strong>Liga Indonesia edisi 1994–1995</strong> setelah mengalahkan Petrokimia Putra di final. Ini menjadi gelar nasional pertama era profesional dan membuat bobotoh (suporter) makin fanatik.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>⭐ 2014 – 2015: Juara ISL</h3>
+                <p>Persib kembali juara Liga Super Indonesia (ISL) 2014 setelah mengalahkan Persipura Jayapura. Musim berikutnya juga tampil impresif meski kompetisi sempat terhenti.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>🏆 2024: Piala Presiden & Piala Menpora</h3>
+                <p>Persib menambah koleksi piala dengan memenangi turnamen pramusim, diikuti dengan performa konsisten di Liga 1.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🏅 Daftar Prestasi Utama</h2>
+        <div class="prestasi-grid">
+            <div class="prestasi-card">
+                <h4>🏆 Liga Indonesia</h4>
+                <p>Juara: 1994–95, 2014</p>
+                <p>Runner-up: 1998–99, 2015</p>
+            </div>
+            <div class="prestasi-card">
+                <h4>🏆 Piala Indonesia</h4>
+                <p>Runner-up: 2012, 2019</p>
+                <p>Semi finalis beberapa edisi</p>
+            </div>
+            <div class="prestasi-card">
+                <h4>🥇 Piala Presiden</h4>
+                <p>Juara: 2015, 2024</p>
+                <p>Finalis: 2017, 2019</p>
+            </div>
+            <div class="prestasi-card">
+                <h4>🌏 Kompetisi Asia</h4>
+                <p>Piala Champions Asia 2 (1995, 2015)</p>
+                <p>Piala AFC: 2015 (babak grup)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🧡 Bobotoh & Stadion</h2>
+        <p><strong>Bobotoh</strong> adalah sebutan untuk suporter Persib, dikenal sebagai salah satu basis pendukung terbesar dan paling kreatif di Indonesia. Mereka memadati <strong>Stadion Gelora Bandung Lautan Api (GBLA)</strong> dan <strong>Stadion Si Jalak Harupat</strong> setiap pertandingan kandang, menciptakan atmosfer yang luar biasa dengan koreografi, nyanyian, dan spanduk penuh cinta.</p>
+        <p>Persib juga memiliki ikon-ikon legendaris seperti <strong>Atep, Eka Ramdani, I Made Wirawan, David da Silva,</strong> dan striker
